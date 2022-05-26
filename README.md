@@ -20,6 +20,12 @@ Version Control Crash Course Unity project. This project is a sandbox project to
 2. `git status` - Optional, shows all modified files that have yet to be committed
 3. `git add .` - Adds all modified files
    1. `git add <item>` - Optional, adds individual items
-4. `git commit` - Commits your changes to the branch
-5. `git push origin main` - First time pushing project to Git
+4. `git commit -m <message for commit>` - Commits your changes to the branch
+5. `git push -u origin main` - First time pushing project to Git
    1. `git push` - Push project to Git
+
+### Other Useful Commands
+`git merge <branch>` - Merge another branch's modifications into the current branch
+`git switch <branch>` - Switch to a different branch
+`git branch <branch>` - Create a new branch
+`git branch -d <branch>` - Delete branch
