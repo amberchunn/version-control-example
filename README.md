@@ -16,7 +16,7 @@ Version Control Crash Course Unity project. This project is a sandbox project to
 ### Steps for adding Unity project & progress to GitHub version control
 
 1. `git pull origin main` - Run the first time you pull remote repo down into your local branch
-   `git pull` - Pull remote changes down to merge with your changes
+   1. `git pull` - Pull remote changes down to merge with your changes
 2. `git status` - Optional, shows all modified files that have yet to be committed
 3. `git add .` - Adds all modified files
    1. `git add <item>` - Optional, adds individual items
